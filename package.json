@@ -1,0 +1,29 @@
+{
+  "name": "yt-comm-remover",
+  "version": "1.0.0",
+  "description": "simple you tube comment spam remover",
+  "main": "main",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anjarw83/yt-comm-remover.git"
+  },
+  "author": "Anjar Widiyatmoko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anjarw83/yt-comm-remover/issues"
+  },
+  "homepage": "https://github.com/anjarw83/yt-comm-remover#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.32.1",
+    "@typescript-eslint/parser": "^8.32.1",
+    "eslint": "^9.27.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
